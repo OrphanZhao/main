@@ -18,6 +18,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "@babel/core": "^7.23.7"
+    "@babel/core": "^7.23.7",
+    "other": "git+https://github.com/OrphanZhao/other.git#main"
   }
 }

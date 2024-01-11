@@ -29,7 +29,10 @@ const config = {
     rules: [
       {
         test: /\.(js|jsx|ts|tsx)$/,
-        include: path.resolve(__dirname, "src"),
+        include: [
+          path.resolve(__dirname, "src"),
+          path.resolve(__dirname, "./node_modules/other"),
+        ],
         exclude: /(node_modules|bower_components)/,
         use: [
           {
