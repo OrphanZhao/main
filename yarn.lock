@@ -2698,6 +2698,10 @@ open@^8.0.9:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
+"other@git+https://github.com/OrphanZhao/other.git#main":
+  version "1.0.0"
+  resolved "git+https://github.com/OrphanZhao/other.git#3a91d597e3d4ee7f2e19f4533d8fe36373ecfc90"
+
 p-limit@^2.2.0:
   version "2.3.0"
   resolved "https://registry.npmmirror.com/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
